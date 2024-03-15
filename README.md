@@ -4,6 +4,8 @@ This repository contains the scripts for pretraining MAE-LM.
 
 Paper: [Representation Deficiency in Masked Language Modeling](https://arxiv.org/abs/2302.02060)
 
+**TL;DR**: We demonstrate empirically and theoretically that MLM pretraining allocates some model dimensions exclusively for representing [MASK] tokens, resulting in a representation deficiency for real tokens and limiting the pretrained model's expressiveness when it is adapted to downstream data without [MASK] tokens.
+
 <img src="./MAE-LM.png" width="1000px"></img>
 
 ## Requirements
