@@ -17,7 +17,7 @@ bash install.sh
 
 MAE-LM pretraining can be run via `run_pretrain.sh`. You need to provide the pretraining corpus and saving directory as the two input arguments to the script.
 
-For the pretraining corpus preparation, you can refer to [this script](/MAE-LM/examples/byte_level_bpe/get_data.sh)
+For the pretraining corpus preparation, you can refer to [this script](/examples/byte_level_bpe/get_data.sh)
 
 ## Citation
 If you find the code useful for your research, please cite the following paper:
